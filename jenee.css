@@ -1,0 +1,177 @@
+/******************* APPLIED TO WHOLE DOC ********************/
+* {
+  background-color: #F8F8FF;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+/********************** HEADER (NAME, PIC, TITLE) *********************/
+
+#name-title {
+  color: black;
+  text-align: center;
+  font-size: 10em;
+  font-family: 'Bungee Hairline', cursive;
+  margin: 0em;
+}
+
+#special {
+  font-family: 'Bungee Hairline', cursive;
+}
+
+#title {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  /*text-decoration: underline;*/
+}
+
+.profile-pic {
+  display: block;
+  width: 16em;
+  height: auto;
+  margin: auto;
+  border-radius: 15px 50px;
+}
+
+/********************** PROGRAM ICONS ***********************/
+
+.program-icons {
+  display: inline-flex;
+  list-style-type: none;
+  /*margin-right: 50px;*/
+  /*text-align: center;*/
+  letter-spacing: 2em;
+}
+
+.devicon-ruby-plain-wordmark {
+  font-size: 3.5em;
+  color: #d91404;
+}
+
+.devicon-rails-plain-wordmark {
+  font-size: 3.5em;
+  color: #a62c46;
+}
+
+.devicon-javascript-plain {
+  font-size: 3.5em;
+  color: #f0db4f;
+}
+
+.devicon-github-plain-wordmark {
+  font-size: 3.5em;
+  color: #181616;
+}
+
+.devicon-html5-plain-wordmark {
+  font-size: 3.5em;
+  color: #e54d26;
+}
+
+.devicon-css3-plain-wordmark {
+  font-size: 3.5em;
+  color: #3d8fc6;
+}
+
+.devicon-jquery-plain-wordmark {
+  font-size: 3.5em;
+  color: #0769ad;
+}
+
+.devicon-git-plain-wordmark {
+  font-size: 3.5em;
+  color: #f34f29;
+}
+
+/*************************** BODY (PROJECTS) **********************/
+.projectbutton {
+  display: inline-flex;
+}
+
+input[type="submit"] {
+  background-color: black;
+  font-size: 2.5em;
+  color: white;
+  border: none;
+  padding: 1em;
+  margin: 10px;
+  border-radius: 5px;
+  display: inline-flex;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: gray;
+}
+
+/**************************** BODY (BIO) ********************************/
+
+.bio {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+h3 p {
+  text-align: center;
+}
+
+/*************************** LINES, DIVS & HEADER TEXT *********************************/
+
+.header-text {
+  font-size: 1.8em;
+  color: black;
+  padding-top: 1.5em;
+  /*text-decoration: underline;*/
+}
+
+.divpad {
+  padding-bottom: 1.5em;
+}
+
+hr {
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+/*************************** FOOTER (CONTACT INFO) ****************************/
+
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+#contact {
+  color: purple;
+  font-size: 1.5em;
+  margin-left: 20px;
+  padding-top: 1.5em;
+}
+
+#neyney {
+  font-weight: bold;
+}
+
+.contact-info {
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.2em;
+}
+
+.contact-info li {
+  font-size: 1.3em;
+}
+
+.contact-info a {
+  text-decoration: none;
+  border: none;
+}
+
+.contact-info a:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: lightgray;
+  border: none;
+}
