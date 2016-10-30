@@ -135,6 +135,7 @@ h3 p {
 hr {
   margin-left: 10em;
   margin-right: 10em;
+  border-color: black;
 }
 
 /*************************** FOOTER (CONTACT INFO) ****************************/
