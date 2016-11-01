@@ -1,6 +1,7 @@
 /******************* APPLIED TO WHOLE DOC ********************/
 * {
-  background-color: white; 
+  background-color: #FBF7FC; 
+  /*background-image: url("extra_clean_paper.png");*/
   color: black;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
