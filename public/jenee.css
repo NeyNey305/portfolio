@@ -1,12 +1,14 @@
 /******************* APPLIED TO WHOLE DOC ********************/
 * {
-  background-color: #FBF7FC; 
-  /*background-image: url("extra_clean_paper.png");*/
+  /*background-color: #FBF7FC; */
   color: black;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
 }
 
+body {
+  background-image: url("http://media.istockphoto.com/photos/seamless-hand-painted-blurred-flat-light-gray-concrete-wall-structure-picture-id497665948?k=6&m=497665948&s=170667a&w=0&h=mGldUupYN0fHgLmdX_kavS5GW4NRRtgMyF576mz6c_A=");
+}
 /********************** HEADER (NAME, PIC, TITLE) *********************/
 
 #name-title {
