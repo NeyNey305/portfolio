@@ -1,1 +1,4 @@
-gem 'sinatra', '~> 1.4', '>= 1.4.7'
+source "https://rubygems.org"
+ruby "2.2.3"
+
+gem "sinatra"
